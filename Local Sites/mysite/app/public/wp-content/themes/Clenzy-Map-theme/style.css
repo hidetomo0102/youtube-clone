@@ -11,6 +11,7 @@ Template: sango-theme
 html {
   font-family: sans-serif;
 }
+
 body {
   margin: 0;
   background-color: #eaedf2;
@@ -366,7 +367,7 @@ table {
   }
   .d-5of7 {
     float: left;
-    width: 69%;
+    width: 100%;
     padding-right: 30px;
   }
   .single .d-5of7,
@@ -4357,7 +4358,7 @@ body .totop i {
  * トップ,アーカイブ記事一覧 1030px〜
  */
   .cardtype__article {
-    width: 45%;
+    width: 30%;
     margin: 0 4% 25px 0;
   }
   .cardtype__link {
