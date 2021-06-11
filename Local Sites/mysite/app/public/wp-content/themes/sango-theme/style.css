@@ -4357,7 +4357,7 @@ body .totop i {
     margin-top: 0;
     padding: 30px;
   }
-  .new_articles {
+  .page-logo {
     padding-right: 2%;
   }
 
@@ -4634,8 +4634,12 @@ body .totop i {
     width: 1180px;
   }
   /*消しちゃダメ*/
-  .new_articles {
+
+  .page-logo {
     padding-right: 45px;
+  }
+  .popular {
+    width: 1180px;
   }
 }
 /*end min-width: 1240px*/
@@ -4647,7 +4651,19 @@ body .totop i {
 #main {
   margin-top: 72px;
 }
+#inner-content__popular {
+  margin-top: 54px;
+}
+#inner-content__jobs {
+  margin-top: 72px;
+}
 .tagcloud {
   margin-bottom: 72px;
   padding: 0 5%;
+}
+.popular {
+  display: block !important;
+}
+.page-logo__jobs {
+  margin-bottom: 100px;
 }

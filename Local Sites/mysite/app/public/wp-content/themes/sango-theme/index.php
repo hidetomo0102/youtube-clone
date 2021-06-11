@@ -5,7 +5,7 @@
       <div class="tagcloud">
         <?php wp_tag_cloud(); ?>
       </div>
-      <div class="new_articles">
+      <div class="page-logo">
         <a class="new" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/library/images/new_articles.png"></a>
       </div>
       <main id="main" class="m-all t-2of3 d-5of7 cf">
