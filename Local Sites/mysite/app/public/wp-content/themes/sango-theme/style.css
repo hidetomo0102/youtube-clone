@@ -4,42 +4,27 @@ Theme Name: ClenzyMap
 Description: SANGOへようこそ！テーマの設定方法は<a href="https://saruwakakun.com/sango">カスタマイズガイド</a>を参照してください。
 Version: 1.0.0
 -------------------------------------------------*/
-/*トップに人気記事を設置*/
-/*タイトル*/
-.top-title {
-    margin-top: 0;
-    font-size: 1.45em;
-    font-weight: bold;
-    color: #389bff;
-}
-/*余白調整など*/
-.popular-posts .cardtype__article-info {
-    padding-top: 0.5em;
-}
-.popular-posts .cardtype__link {
-    padding-bottom: 10px;
-}
 @media only screen and (max-width: 480px) {
   /*スマホでも2列横並びに*/
   .cardtype {
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: -moz-box;
-      display: flex;
-      flex-direction: row;
-      -webkit-flex-direction: row;
-      -webkit-flex-wrap: wrap;
-      flex-wrap: wrap;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .popular-posts .cardtype__article {
     width: 48%;
   }
-  .popular-posts .cardtype__article:nth-child(odd){
+  .popular-posts .cardtype__article:nth-child(odd) {
     margin-right: 4%;
   }
   .popular-posts.cardtype h2 {
-      margin: 0 5px;
-      font-size: 15px;
+    margin: 0 5px;
+    font-size: 15px;
   }
 }
 /*END トップに人気記事を設置*/
@@ -263,6 +248,9 @@ table {
     float: left;
     width: 75%;
     padding-right: 0.75em;
+  }
+  .tagcloud a {
+    margin-right: 5% !important;
   }
 }
 /* タブレット */
@@ -1275,7 +1263,7 @@ footer p {
 }
 .fixed-menu.fixed-menu-scroll-upward ul {
   transform: translateY(100%);
-  transition: transform .3s ease-in;
+  transition: transform 0.3s ease-in;
 }
 .fixed-menu.fixed-menu-scroll-upward-show ul {
   transform: translateY(0);
@@ -2175,18 +2163,12 @@ input.searchform__input:focus + .searchform__submit i {
 
 /*タグクラウド*/
 .tagcloud a {
-  display: inline-block;
-  margin: 5px 5px 5px 0;
-  padding: 2px 8px;
-  border-radius: 15px;
-  background: #f4f4f4;
-  color: #666;
-  font-size: 12px !important;
-  font-weight: bold;
-}
-.tagcloud a:hover {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #333;
   text-decoration: none;
+  margin: 5px 2% 5px 0;
+  color: #333333;
+  font-size: 13px !important;
+  font-weight: bolder;
 }
 /*カレンダー*/
 #wp-calendar {
@@ -4375,6 +4357,9 @@ body .totop i {
     margin-top: 0;
     padding: 30px;
   }
+  .new_articles {
+    padding-right: 2%;
+  }
 
   /*消しちゃダメ*/
 }
@@ -4649,5 +4634,20 @@ body .totop i {
     width: 1180px;
   }
   /*消しちゃダメ*/
+  .new_articles {
+    padding-right: 45px;
+  }
 }
 /*end min-width: 1240px*/
+
+/* 独自CSS */
+#inner-content {
+  margin-top: 54px;
+}
+#main {
+  margin-top: 72px;
+}
+.tagcloud {
+  margin-bottom: 72px;
+  padding: 0 5%;
+}
