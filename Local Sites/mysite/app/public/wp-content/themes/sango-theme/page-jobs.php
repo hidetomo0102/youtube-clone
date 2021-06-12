@@ -12,7 +12,7 @@
         <a href="<?php echo esc_url( home_url( '/category/web-marketer' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/library/images/web-marketer.png"></a>
       </div>
       <main id="main" class="m-all t-2of3 d-5of7 cf">
-        
+          
       </main>
       <?php get_sidebar(); ?>
     </div>

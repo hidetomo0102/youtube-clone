@@ -865,6 +865,7 @@ h5,
   margin-top: 0;
 }
 #entry {
+  padding: 10px 100px;
   margin-bottom: 1.5em;
   border-radius: 3px;
   background-color: white;
@@ -4648,8 +4649,14 @@ body .totop i {
 #inner-content {
   margin-top: 54px;
 }
-#main {
-  margin-top: 72px;
+.single #inner-content {
+  margin-top: 10px;
+}
+.single #breadcrumb {
+  padding: 10px;
+}
+.page-logo {
+  margin-bottom: 72px;
 }
 #inner-content__popular {
   margin-top: 54px;
